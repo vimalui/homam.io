@@ -1,0 +1,397 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins',sans-serif;
+}
+.bnr-sec{
+	padding: 50px 0;
+}
+.actual-price{
+	text-decoration: line-through;	
+}
+.discount-price {
+	font-size: 16px;
+}
+.discount-price span{
+	font-weight: 600;
+	color: #f58622;
+}
+.cart-btn{
+	padding: 10px 20px;
+	background:#f58622 ;
+	outline: none;
+	border: none;
+	color: #fff;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+.cart-btn i{
+	margin-right: 5px;
+}
+.abt-homam-sec{
+	padding: 50px 0;
+	/*background:#fdce57;*/
+	/*background: #f7e2a4;*/
+	background: #f4f4d3;
+}
+.mainbox{
+	display: flex;
+	width: 80%;
+	background: #fff;
+    box-shadow: 0px 0px 20px #a08467;
+    border-radius: 10px;
+    margin: auto;
+    min-height: 230px;
+}
+.mainbox:not(:last-child){
+	margin:0 auto 30px;	
+}
+.imgbox{
+	width: 25%;
+	display: flex;
+	align-items: center;
+	background: #fd7e10;
+	border-radius: 10px;
+}	
+.imgbox img{
+	border-radius: 10px;
+	width: 50%;
+	margin: auto;
+	filter: invert(1);
+}
+.cont-box{
+	width: 75%;
+	padding: 20px 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #82807b;
+}
+.cont-box h2{
+	margin-top: 0;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fd963c;
+}
+/*.cont-box p{
+	font-size: 13px;
+}*/
+.cont-box:last-child p{
+	margin-bottom: 0;
+}
+
+.bg-img{	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 400px;
+}
+.flex-row{
+	display: flex;
+}
+.flx-col:last-child{
+	padding:50px;
+}
+.flx-col{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.sub-hd{
+	font-size: 20px;
+	font-weight: 600;
+	color: #fd963c;
+	text-transform: uppercase;
+}
+.no-pad{
+	padding: 0;
+}
+.item-list{
+	list-style: none;
+}
+.item-list li{
+	position: relative;
+	margin-left: 30px;
+	line-height: 22px;
+}
+.item-list li::before{
+	content: "\f101";
+	position: absolute;
+	font-size: 18px;
+	font-family: FontAwesome;
+	color: #fd963c;
+	margin-left: -20px;
+	/*font-weight: 600;*/
+}
+.homam-items-sec{
+	padding: 50px 0;
+}
+.small-hd{
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 0;
+}
+
+.icnbox-model{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	width: 90%;
+	margin:50px auto;
+	justify-content: center;
+}
+.icnbox-item{
+	width: 25%;
+}
+
+.icnbox-model img{
+	width: 80px;
+	height: 80px;	
+	margin: auto;
+	border-radius: 30px;
+}
+.icnbox-item {
+	border-right: 2px solid #a8a29c;
+	padding: 30px 20px;
+	border-bottom: 2px solid #a8a29c;
+}
+.icnbox-model h3{
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+}
+
+.pro-sec{
+	display: flex;
+	position: relative;
+	margin-top: 50px;
+}
+.pro-sec::before{
+	content: "";
+	width: 2.5px;
+	background: #828270;
+	left: 50%;
+	transform: translateX(-50%);
+	position: relative;
+}
+.timelist{
+	width: 80%;
+	list-style: none;
+	margin: auto;
+	font-size: 16px;
+}
+.timelist li{
+	position: relative;
+	margin-bottom: 60px;
+}
+.timelist li:nth-child(1)::before{
+	background-image: url(./images/homam-icons/Vinayaka.png);
+}
+.timelist li:nth-child(2)::before{
+	background-image: url(./images/homam-icons/kalasa-establishment.png);
+}
+.timelist li:nth-child(3)::before{
+	background-image: url(./images/homam-icons/sankalpam.png);
+}
+.timelist li:nth-child(4)::before{
+	background-image: url(./images/homam-icons/Punyahavachanam.png);
+}
+.timelist li:nth-child(5)::before{
+	background-image: url(./images/homam-icons/Kalasa-Pooja.png);
+}
+.timelist li:nth-child(6)::before{
+	background-image: url(./images/homam-icons/veda-mantara.png);
+}
+.timelist li:nth-child(7)::before{
+	background-image: url(./images/homam-icons/Moola-mantra.png);
+}
+.timelist li:nth-child(8)::before{
+	background-image: url(./images/homam-icons/Agni-karyam.png);
+}
+.timelist li:nth-child(9)::before{
+	background-image: url(./images/homam-icons/gayatri-mantra.png);
+}
+.timelist li:nth-child(10)::before{
+	background-image: url(./images/homam-icons/purna-ahuthi.png);
+}
+.timelist li:nth-child(11)::before{
+	background-image: url(./images/homam-icons/prasadha.png);
+}
+.timelist li:nth-child(12)::before{
+	background-image: url(./images/homam-icons/Ashirwadham.png);
+}
+.timelist li:nth-child(odd){
+	width: 50%;
+	float: left;
+	clear: both;
+	text-align: right;
+	padding-right: 50px;
+}
+.timelist li:nth-child(even){
+	width: 50%;
+	clear: both;
+	float: right;
+	width: 50%;
+	padding-left: 50px;
+}
+.timelist li::before{
+	content: "";
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 999;
+    background-position: center;
+}
+.timelist li:nth-child(odd)::before{
+    right: -25px;
+    background-color: #fd8f31;
+}
+.timelist li:nth-child(even)::before{
+    left: -25px;
+    background-color: #686860;
+}
+.timelist li:last-child::after{
+	display: none;
+}
+
+
+
+.flex-list{
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+		}
+		.list-item{
+			list-style: none;
+		}
+		.list-item li{
+			position: relative;
+			margin-left: 40px;
+		}
+		.list-item li::before{
+			content: '\f101';
+			font-family: FontAwesome;
+			font-size: 18px;
+			color: #f58622;
+			margin-left: -30px;
+			padding-right: 10px;
+		}
+
+/*Media Query Start Here*/		
+@media(min-width: 768px){
+.icnbox-item:nth-child(4n){
+		border-right: none;
+	}
+.icnbox-item:nth-last-child(1),
+.icnbox-item:nth-last-child(2),
+.icnbox-item:nth-last-child(3),
+.icnbox-item:nth-last-child(4){
+	border-bottom: none;
+}
+}
+@media(min-width: 1400px){
+	.flx-col:first-child{
+		width: 40%;
+	}
+	.flx-col:last-child{
+		width: 60%;
+		padding: 75px;
+	}
+}
+@media(min-width: 1800px){
+	.bg-img{
+		min-height: 500px;
+	}
+}
+@media (max-width:991.98px){
+	.mainbox{
+		width: 100%;
+	}
+	.imgbox{
+		width: 40%;
+	}
+	.cont-box{
+		width: 60%
+	}
+	.icnbox-model{
+		width: 100%
+	}
+	.timelist li:nth-last-child(2)::after{
+		height: 130px;
+		top: 70px;
+	}
+	.timelist li:nth-last-child(3)::after{
+		height: 190px;
+		top: 100px;
+	}
+	.timelist li:nth-last-child(4)::after{
+		height: 190px;
+		top: 10px;
+	}
+	.bg-img{
+		display: none;
+	}
+	.flex-row{
+		flex-wrap: wrap;
+	}
+	.flx-col{
+		width: 100%
+	}
+}
+@media (max-width:767.98px){
+	.mainbox{
+		flex-direction: column;
+	}
+	.imgbox{
+		padding: 30px
+	}
+	.imgbox,
+	.cont-box{
+		width: 100%;
+	}
+	.icnbox-model{
+		justify-content: center
+	}
+	.icnbox-item{
+		width: 33.33%;
+	}
+	.icnbox-item:nth-child(3n),
+	.icnbox-item:last-child{
+		border-right: none;
+	}
+}
+@media (max-width:575.98px){
+	.icnbox-item{
+		width: 50%;
+	}
+	.icnbox-item:nth-child(3n){
+		border-right: 2px solid #a8a29c;
+	}
+	.icnbox-item:nth-child(even){
+		border-right: none;
+	}
+
+	.timelist{
+		font-size: 14px;
+		width: 100%;
+	}
+	.timelist li:nth-child(odd){
+		padding-right: 32px;
+	}
+	.timelist li:nth-child(even){
+		padding-left: 30px;
+	}
+	.icnbox-item:nth-child(even){
+		border-right: none;
+	}
+}
